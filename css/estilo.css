@@ -1,0 +1,57 @@
+/* HEADER */
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: justify;
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+
+}
+
+h3{
+    text-align: center;
+}
+
+header {
+    background-color: beige;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+   
+   
+}
+
+
+/* Main */
+.parrafo{
+    text-align: justify;
+    background-color: black;
+    color: aquamarine;
+  
+}
+/* Imagenes */
+
+img{
+    width: 600px;
+    
+   
+}
+/* footer */
+
+footer{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
