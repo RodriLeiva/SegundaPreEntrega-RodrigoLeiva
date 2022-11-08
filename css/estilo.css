@@ -91,22 +91,37 @@ img{
     width: 900px;
     position: relative;
 
-*/
+
+
+    
+/* .redes {
+    padding-top: 30rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: justify;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}  */
+
+
 
 
 /* Main */
 
-.parrafo{
+ .parrafo{
     text-align: center;
-    /* background-color: black; */
-    top: 0;
+    padding-top: 60rem;
     bottom: 0;
     left: 0;
     right: 0;
     color: black;
     font-size: 1.5rem;
   
-}
+} 
 
 nav {
     display: flex;
@@ -161,13 +176,41 @@ a{
     "header header"
     "nav nav"
     "claseA claseB"
-    /* "claseB" */
     "claseC claseD"
-    /* "claseD" */
     "footer footer"
     ;
 }
 
+
+.grid2 {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "footer"
+    ;
+}
+
+
+.claseH {
+
+    margin:3rem;
+    padding-top: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+.claseH img {
+    padding: 4rem;
+    width: 30rem;
+ 
+}
 
 section {
 margin:1rem;
@@ -205,21 +248,9 @@ section img {
 /* footer */
 
 
-/* .redes {
-    padding-top: 30rem;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: justify;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-}  */
 
 footer{
-    padding-top: 6rem;
+    padding-top: 35em;
     text-align: center;
     grid-area: footer;
     position: relative;
@@ -303,6 +334,38 @@ footer ul li {
      
     }
 
+        /* historia */
+    .grid2 {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+        ;
+    }
+.claseH {
+
+    margin:3rem;
+    padding-top: 45rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.claseH img {
+    padding: 4rem;
+    width: 25rem;
+}
+
+
+
+
+
 }
 
 /* Vista movil */
@@ -368,5 +431,37 @@ footer ul li {
         margin: 1rem;
      
     }
+
+        /* historia */
+
+
+    .grid2 {
+            display: grid;
+            grid-template-areas: 
+            "header"
+            "nav"
+            "section"
+            "footer"
+            ;
+        }
+    .claseH {
+        top: 0;
+        margin: 0;
+        /* padding-top: 100rem; */
+        height: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        bottom:0;
+        max-width: 90%;
+    
+    }
+    
+    .claseH img {
+        padding: 0;
+        width: 2rem;
+    }
+    
 
 }
