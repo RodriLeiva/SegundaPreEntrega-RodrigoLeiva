@@ -137,6 +137,38 @@ a{
 }
 
 
+
+.claseA {
+    grid-area: claseA;
+}
+
+.claseB {
+    grid-area: claseB;
+}
+
+
+.claseC {
+    grid-area: claseC;
+}
+
+.claseD {
+    grid-area: claseD;
+}
+
+.grid1{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "claseA claseB"
+    /* "claseB" */
+    "claseC claseD"
+    /* "claseD" */
+    "footer footer"
+    ;
+}
+
+
 section {
 margin:1rem;
 padding: 3rem;
@@ -154,6 +186,11 @@ section img {
     padding: 3rem;
     width: 80rem;
 }
+
+
+
+
+
 
 
 
@@ -212,9 +249,7 @@ footer ul li {
 /* TABLETA */
 
 @media (min-width:700px) and (max-width: 1100px){
-    .gridPadre{
-        
-    }
+    
 
     section {
         margin:1rem;
@@ -272,7 +307,8 @@ footer ul li {
 
 /* Vista movil */
 
-@media (max width:699) {
+@media (max-width:699) {
+
     .gridPadre {
         display: grid;
         grid-template-areas: 
