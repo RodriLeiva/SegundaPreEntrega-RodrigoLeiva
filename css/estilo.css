@@ -1,20 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+html {
+    font-size: 62.5%;
+}
 /* HEADER */
+
+body {
+    /* background-color:#e8e9eb; */
+    font-family: 'Ubuntu', sans-serif;
+    background: radial-gradient(#fdc830, #f37335);
+}
 
 a{
     text-decoration: none;
     text-transform: uppercase;
     text-align: justify;
-    color: red;
+    color: blue;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 h1{
     text-align: center;
     color: blue;
+    font-size: 4rem;
+   
 }
 
 h2 {
     text-align: center;
     color: green;
+    font-size: 3rem;
 
 }
 
@@ -22,9 +40,9 @@ h3{
     text-align: center;
 }
 
-header {
-    background-color: beige;
-}
+/* header {
+     background: linear-gradient(to right, #45b39d, #5f7e78);
+} */
 
 li{
     list-style-type: none;
@@ -32,6 +50,10 @@ li{
     justify-content: center;
    
    
+}
+
+nav ul li {
+    position: sticky;
 }
 
 
@@ -44,14 +66,37 @@ li{
 }
 /* Imagenes */
 
+nav {
+    grid-area: nav;
+    text-align: center;
+    text-shadow: 4px;
+   
+}
+
 img{
-    width: 600px;
+    /* width: 800px; */
+    height: 500px;
+    width: 900px;
+    position: relative;
+   
     
    
 }
-/* footer */
-
-footer{
-    background-color: antiquewhite;
-    color: blueviolet;
+.inicio {
+    font-size: 1.5rem;
+    color: beige;
+    text-align: center;
+    text-shadow: 4px;
 }
+/* footer */
+.redes {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+/* footer{
+    background: radial-gradient(#373b44, #4286f4);
+
+} */
